@@ -44460,7 +44460,7 @@ r=A.aiL("#"+B.e.e2(B.j.dN(s.gn(s)>>>24&255,16),2,"0")+B.e.e2(B.j.dN(s.gn(s)>>>16
 p.e!==$&&A.aN()
 p.e=r
 n=r}s=t.D
-return A.aCe(new A.bx(B.M3,A.j7(A.a([new A.wz(b,new A.aol(p),B.QL,!0,!0,o*0.9,!0,n,q),new A.r1(A.dN(A.l_(A.a([A.br('Copy "'+("Color(red: "+(b.gn(b)>>>16&255)+"/255, blue: "+(b.gn(b)&255)+"/255, green: "+(b.gn(b)>>>8&255)+"/255)")+'"',q,q,q,q,q,q,q),B.ND],s),B.aE,B.iS,B.bh),q,o/2-20),q,q,B.or,new A.aom(b),44,0.4,B.h5,B.Y,!0,q)],s),B.aE,B.b7,B.bh),q),q,B.a6,q,q,B.b3)},
+return A.aCe(new A.bx(B.M3,A.j7(A.a([new A.wz(b,new A.aol(p),B.QL,!0,!0,o*0.9,!0,n,q),new A.r1(A.dN(A.l_(A.a([A.br('"'+("Color(red: "+(b.gn(b)>>>16&255)+"/255, green: "+(b.gn(b)>>>8&255)+"/255), blue: "+(b.gn(b)&255)+"/255)")+'"',q,q,q,q,q,q,q),B.ND],s),B.aE,B.iS,B.bh),q,o/2-20),q,q,B.or,new A.aom(b),44,0.4,B.h5,B.Y,!0,q)],s),B.aE,B.b7,B.bh),q),q,B.a6,q,q,B.b3)},
 $S:505}
 A.aol.prototype={
 $1(a){this.a.d.sn(0,a)},
@@ -44470,7 +44470,7 @@ $0(){var s=0,r=A.ab(t.H),q=this,p
 var $async$$0=A.ac(function(a,b){if(a===1)return A.a8(b,r)
 while(true)switch(s){case 0:p=q.a
 s=2
-return A.ag(A.wx(new A.of("Color(red: "+(p.gn(p)>>>16&255)+"/255, blue: "+(p.gn(p)&255)+"/255, green: "+(p.gn(p)>>>8&255)+"/255)")),$async$$0)
+return A.ag(A.wx(new A.of("Color(red: "+(p.gn(p)>>>16&255)+"/255, green: "+(p.gn(p)>>>8&255)+"/255), blue: "+(p.gn(p)&255)+"/255)")),$async$$0)
 case 2:return A.a9(null,r)}})
 return A.aa($async$$0,r)},
 $S:25}
