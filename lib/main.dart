@@ -84,9 +84,9 @@ class _HomePageState extends State<HomePage> {
                   CupertinoButton.filled(
                     child: SizedBox(
                       width: width / 2 - 20,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                      child: Wrap(
+                        alignment: WrapAlignment.spaceEvenly,
+                        crossAxisAlignment: WrapCrossAlignment.center,
                         children: [
                           Text("\"${color.toSwiftColor()}\""),
                           const Icon(Icons.copy),
